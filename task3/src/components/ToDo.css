@@ -1,0 +1,23 @@
+.todos_wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 65%;
+  margin: 0 auto;
+  background-color: azure;
+}
+.todo {
+  display: flex;
+  width: 100%;
+  border: 1px solid rgb(214, 213, 213);
+}
+.title {
+  width: 80%;
+}
+
+.todo_status,
+.delete_todo {
+  padding-top: 20px;
+  width: 10%;
+}
